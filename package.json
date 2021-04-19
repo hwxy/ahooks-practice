@@ -66,6 +66,6 @@
     "husky": "^6.0.0"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "npm run eslint"
+    "*.{ts,tsx}": "eslint --fix"
   }
 }
