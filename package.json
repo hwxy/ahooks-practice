@@ -87,7 +87,7 @@
     "commit": "git-cz",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "eslint": "eslint --fix --ext .ts,tsx src",
+    "eslint": "eslint --fix --ext src/**/*.{ts,tsx}",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
