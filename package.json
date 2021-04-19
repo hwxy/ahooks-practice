@@ -67,7 +67,7 @@
   },
   "lint-staged": {
     "src/": [
-      "npm run eslint"
+      "./node_modules/.bin/eslint"
     ]
   }
 }
