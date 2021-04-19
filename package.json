@@ -66,8 +66,6 @@
     "husky": "^6.0.0"
   },
   "lint-staged": {
-    ".{ts,tsx}": [
-      "./node_modules/.bin/eslint"
-    ]
+    "*.{ts,tsx}": "eslint"
   }
 }
