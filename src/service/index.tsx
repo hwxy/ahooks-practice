@@ -1,2 +1,2 @@
-let d = 1
-export default b
+let c = 1
+export default d
