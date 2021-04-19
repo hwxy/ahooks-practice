@@ -66,6 +66,9 @@
     "husky": "^6.0.0"
   },
   "lint-staged": {
-      ".{ts,tsx}":  "eslint --ext .ts,tsx src"
+      "src/**/*.{ts,tsx}":  [
+        "eslint --ext .ts,tsx src",
+        "git add"
+      ]
   }
 }
