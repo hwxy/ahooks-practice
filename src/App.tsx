@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC } from 'react'
 import { ReduxAndRouter, d } from './common/redux'
-import './App.css';
+import './App.css'
 
 const App: FC = () => (
     <ReduxAndRouter></ReduxAndRouter>
