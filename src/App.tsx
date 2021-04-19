@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ReduxAndRouter } from './common/redux'
+import { ReduxAndRouter, a } from './common/redux'
 import './App.css';
 
 const App: FC = () => (
