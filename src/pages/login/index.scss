@@ -1,0 +1,23 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.login-content{
+  padding: 100px;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.content__footer{
+  position: fixed;
+  bottom: 20px;
+  background: yellow;
+  width: 100%;
+  left: 0px;
+}
