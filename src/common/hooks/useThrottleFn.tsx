@@ -26,7 +26,6 @@ function useThrottleFn<T extends Fn>(fn: T, options?: ThrottleOptions) {
   );
 
   useUnmount(() => {
-    debugger
     throttled.cancel();
   });
 

@@ -7,6 +7,9 @@ import UseWhyDidYouUpdate from './useWhyDidYouUpdate'
 import UseClickAway from './useClickAway'
 import UseDocumentVisibility from './useDocumentVisibility'
 import UseEventTarget from './useEventTarget'
+import UseEventEmitter from './useEventEmitter'
+import UseLockFn from './useLockFn'
+import UsePersistFn from './usePersistFn'
 interface IComps{
   [key: string]: React.ComponentType
 }
@@ -16,10 +19,13 @@ let Comps: IComps = {
   useInterval: UseIntervalComp,
   useThrottle: UseThrottleComp,
   useDebounceEffect: UseDebounceEffect,
-  UseWhyDidYouUpdate: UseWhyDidYouUpdate,
-  UseClickAway: UseClickAway,
-  UseDocumentVisibility: UseDocumentVisibility,
-  UseEventTarget: UseEventTarget
+  useWhyDidYouUpdate: UseWhyDidYouUpdate,
+  useClickAway: UseClickAway,
+  useDocumentVisibility: UseDocumentVisibility,
+  useEventTarget: UseEventTarget,
+  useEventEmitter: UseEventEmitter,
+  useLockFn: UseLockFn,
+  usePersistFn: UsePersistFn
 }
 
 export default Comps
